@@ -725,6 +725,7 @@ body.lock {
   font-size: 40px;
   font-weight: 700;
   color: #fff;
+  margin-right: 20px;
 }
 
 .menu__body._active {
