@@ -339,6 +339,10 @@ body.lock {
   color: gold;
 }
 
+.gallery-works {
+  font-size: 16px;
+}
+
 .gallery-works__main-title {
   margin: 0 0 30px 20px;
 }
@@ -517,7 +521,7 @@ body.lock {
 }
 
 .create-message__title {
-  margin: 0 0 30px 20px;
+  margin-left: 20px;
 }
 
 .create-message__buttons {
@@ -822,6 +826,10 @@ body.lock {
     font-size: 1.75rem;
   }
 
+  .gallery-works {
+    margin-bottom: 1.5625rem;
+  }
+
   .gallery-works__column {
     margin-bottom: 1.875rem;
   }
@@ -836,6 +844,10 @@ body.lock {
 
   .action-gallery__link {
     font-size: 2rem;
+  }
+
+  .create-message__title {
+    margin-bottom: 2rem;
   }
 
   .popup__content {
@@ -880,6 +892,10 @@ body.lock {
     font-size: 1.25rem;
   }
 
+  .gallery-works {
+    margin-bottom: 0.9375rem;
+  }
+
   .gallery-works__column {
     margin-bottom: 0.9375rem;
   }
@@ -894,6 +910,10 @@ body.lock {
 
   .action-gallery__link {
     font-size: 1.5rem;
+  }
+
+  .create-message__title {
+    margin-bottom: 0.9375rem;
   }
 
   .popup__content {
@@ -925,12 +945,6 @@ body.lock {
 @media (max-width: 61.99875em) and (max-width: 20em) {
   .about-me__image {
     margin-bottom: 1.25rem;
-  }
-}
-
-@media (max-width: 61.99875empx) {
-  .info__text {
-    padding-left: 60px;
   }
 }
 
@@ -1104,6 +1118,15 @@ body.lock {
   .info__label {
     margin: 0 0 15px 0;
   }
+
+  .info__text {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .social__item {
+    font-size: 32px;
+  }
 }
 
 @media (min-width: 20em) and (max-width: 75.625em) {
@@ -1156,6 +1179,13 @@ body.lock {
       );
   }
 
+  .gallery-works {
+    margin-bottom: calc(
+        0.9375rem + 0.625 *
+          (((100vw - 20rem)) / ((55.625)))
+      );
+  }
+
   .gallery-works__column {
     margin-bottom: calc(
         0.9375rem + 0.9375 *
@@ -1180,6 +1210,13 @@ body.lock {
   .action-gallery__link {
     font-size: calc(
         1.5rem + 0.5 *
+          (((100vw - 20rem)) / ((55.625)))
+      );
+  }
+
+  .create-message__title {
+    margin-bottom: calc(
+        0.9375rem + 1.0625 *
           (((100vw - 20rem)) / ((55.625)))
       );
   }
