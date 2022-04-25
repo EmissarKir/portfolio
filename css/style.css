@@ -318,27 +318,6 @@ body.lock {
   margin-bottom: 0.5em;
 }
 
-.raiting {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.raiting__item {
-  font-size: 24px;
-  color: grey;
-}
-
-.raiting__item_checked {
-  color: gold;
-}
-
 .gallery-works {
   font-size: 16px;
 }
